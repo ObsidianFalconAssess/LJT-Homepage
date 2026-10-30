@@ -141,7 +141,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : og-image.png   # Social media default site image (lives in /images/)
+og_image                 :  # No social sharing image has been provided.
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -190,6 +190,21 @@ exclude:
   - README
   - tmp
   - vendor
+  - AGENTS.md
+  - docker-compose.yaml
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - talkmap
+  - markdown_generator
+  - scripts
+  - files
+  - images/bio-photo.jpg
+  - images/bio-photo-2.jpg
+  - images/editing-talk.png
+  - images/500x300.png
+  - images/wiki
+  - images/themes
 keep_files:
   - .git
   - .svn
